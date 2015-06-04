@@ -24,8 +24,8 @@ sintaks dari perintah di atas yaitu:
 
 yang berisi username (`username`) dan password (`$apr1$7.4.YDdY$CIN4bHyQC1vbUDW9oLkBV/`) yang terenkripsi.
 
-Selanjutnya, kita akan memerlukan modul [http-auth](https://www.npmjs.com/package/http-auth) untuk mendukung autentikasi dasar HTTP. Informasi kebutuhan telah dimasukkan ke `package.json`, maka kita hanya perlu menjalankan perintah:
+Selanjutnya, kita akan memerlukan modul [http-auth](https://www.npmjs.com/package/http-auth) untuk mendukung autentikasi dasar HTTP, dan [cookies](https://www.npmjs.com/package/cookies) untuk membuat dan mengakses HTTP Cookies. Informasi kebutuhan telah dimasukkan ke `package.json`, maka kita hanya perlu menjalankan perintah:
 
-    $ npm install http-auth
+    $ npm install 
 
 untuk mendapatkan daftar kebutuhan.
